@@ -1,5 +1,5 @@
 .new-expense {
-  background-color: #d33333;
+  background-color: #ffffff;
   padding: 1rem;
   margin: 2rem auto;
   width: 80rem;
@@ -7,7 +7,7 @@
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-  color: #fff;
+  color: #000000;
 }
 
 .new-expense button {
@@ -20,6 +20,24 @@
   color: white;
   border-radius: 5px;
   /* margin-right: 1rem; */
+}
+
+.new-expense button.cancel-btn {
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  border: 1px solid #dc3f3f;
+  background-color: #dc3f3f;
+  color: white;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.new-expense button.cancel-btn:hover,
+.new-expense button.cancel-btn:active {
+  background-color: #c52222;
+  border-color: #c52222;
 }
 
 .new-expense button:hover,
